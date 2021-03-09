@@ -12,4 +12,7 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public onZoomIn(): void {
+    console.log("hello, i've been clicked");
+  }
 }
